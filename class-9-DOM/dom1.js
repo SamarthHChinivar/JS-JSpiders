@@ -35,6 +35,11 @@ var td42 = document.createElement("td")
 var td43 = document.createElement("td")
 var td44 = document.createElement("td")
 
+table.border="1"
+table.style.margin="15% auto"
+table.cellPadding="10"
+table.cellSpacing="5"
+
 th1.innerHTML="No."
 th2.innerHTML="Full Name"
 th3.innerHTML="Position"
