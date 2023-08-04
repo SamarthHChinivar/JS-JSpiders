@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mouse Events</title>
+</head>
+<body onload="loading()">
+  <button onclick="once()">click once</button>
+  <button ondblclick="twice()">click twice</button>
+
+  <br><br><br><br><br>
+
+  <img height="500px" width="500px" id="img" src="rcb.jpg" alt="rcb" onmouseover="newImage()" onmouseout="oldImage()">
+
+  <br><br><br><br><br>
+
+  <p id="para" onmousedown="changeColor()" onmouseup="normalColor()" onmouseleave="leave()">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, molestias molestiae rerum, expedita numquam reiciendis, suscipit modi velit tempora incidunt accusamus eius. Sapiente, veniam, corporis ad et iste facere repellendus autem reiciendis, hic quisquam eius praesentium voluptas ab vitae tenetur sunt mollitia error ducimus saepe officia adipisci dolorem! Facere, earum?</p>
+
+  <input type="text" onkeydown="changeKeys()" onkeyup="normal()" name="" id="">
+  <p id="keys"></p>
+
+  <script src="mouse.js"></script>
+</body>
+</html>
